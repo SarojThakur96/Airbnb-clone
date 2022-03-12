@@ -25,8 +25,8 @@ const Home: NextPage<{
   return (
     <div className="">
       <Head>
-        <title>Airbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Airbnb: Holiday Rentals, Cabins, Beach Houses, Unique Homes & Experiences - Airbnb</title>
+        <link rel="icon" href="https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" />
       </Head>
         <Header/>
         <Banner/>
@@ -90,3 +90,4 @@ export const getStaticProps = async () => {
     },
   }
 }
+
